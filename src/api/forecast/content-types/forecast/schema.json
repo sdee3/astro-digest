@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forecasts",
+  "info": {
+    "singularName": "forecast",
+    "pluralName": "forecasts",
+    "displayName": "Forecast",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "day": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "date"
+    },
+    "content": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
